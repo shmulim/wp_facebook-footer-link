@@ -3,10 +3,10 @@
 function ffl_options_menu_link(){
   add_options_page(
     'Facebook Footer Link Options',      // page title
-    'Facebook Footer Link',      // menu title
-    'manage_options',      // capability
-    'ffl-options',       // menu slug
-    'ffl_options_content'         // content callback
+    'Facebook Footer Link',              // menu title
+    'manage_options',                    // capability
+    'ffl-options',                       // menu slug
+    'ffl_options_content'                // content callback
     );
 }
 add_action( 'admin_menu', 'ffl_options_menu_link' );
